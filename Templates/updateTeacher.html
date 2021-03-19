@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title> Teacher Update </title>
+  <body>
+    <h1> Teacher Update</h1>
+    <form action="{{ url_for('updateTeacher') }}" method="post">
+  Teacher ID:
+  <input type="number" name="subid" value="" required><br>
+  Name:
+  <input type="text" name="name" value="" required>  <br>
+  Subject ID:
+  <input type="number" name="subjectid" required></input>
+  <button type="submit" name="submit">Submit</button>
+  <button type="reset" name="reset">Reset</button><br>
+  <label style="font-size: 50;">{{ result }}</label>
+  </form>
+  </body>

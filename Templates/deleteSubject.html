@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title> Subject Delete </title>
+  <body>
+    <h1> Subject Delete</h1>
+    <form action="{{ url_for('deleteSubject') }}" method="post">
+  Subject ID:
+  <input type="number" name="subid" value="" required><br>
+  <button type="submit" name="submit">Submit</button>
+  <button type="reset" name="reset">Reset</button><br>
+  <label style="font-size: 50;">{{ result }}</label>
+  </form>
+  </body>

@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title> Admin insert </title>
+  <body>
+    <h1> Admin insert</h1>
+    <form action="{{ url_for('insertAdmin') }}" method="post">
+  Name:
+  <input type="text" name="name" value="" required><br>
+  Password:
+  <input type="password" name="pwd" value="" required>  <br>
+  <button type="submit" name="submit">Submit</button>
+  <button type="reset" name="reset">Reset</button><br>
+  <label style="font-size: 50;">{{ result }}</label>
+  </form>
+  </body>

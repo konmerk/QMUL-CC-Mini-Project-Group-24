@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title> Subject insert </title>
+  <body>
+    <h1> Subject insert</h1>
+    <form action="{{ url_for('insertSubject') }}" method="post">
+  Name:
+  <input type="text" name="name" value="" required><br>
+  Time:
+  <input type="text" name="time" value="" required>  <br>
+  Year:
+  <select name="year" required>
+  <option value = "First">First</option>
+  <option value = "Second">Second</option>
+  <option value = "Final">Final</option>
+</select><br>
+  <button type="submit" name="submit">Submit</button>
+  <button type="reset" name="reset">Reset</button><br>
+  <label style="font-size: 50;">{{ result }}</label>
+  </form>
+  </body>

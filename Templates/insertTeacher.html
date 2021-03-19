@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title> Teacher insert </title>
+  <body>
+    <h1> Teacher insert</h1>
+    <form action="{{ url_for('insertTeacher') }}" method="post">
+  Name:
+  <input type="text" name="name" value="" required><br>
+  Password:
+  <input type="password" name="pwd" value="" required>  <br>
+  Subject ID:
+  <input type="number" name="subid" required></input>
+  <button type="submit" name="submit">Submit</button>
+  <button type="reset" name="reset">Reset</button><br>
+  <label style="font-size: 50;">{{ result }}</label>
+  </form>
+  </body>

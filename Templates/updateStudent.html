@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title> Student Update </title>
+  <body>
+    <h1> Student Update</h1>
+    <form action="{{ url_for('updateStudent') }}" method="post">
+  Student ID:
+  <input type="number" name="subid" value="" required><br>
+  Name:
+  <input type="text" name="name" value="" required>  <br>
+  Year:
+  <select name="year" required>
+  <option value = "First">First</option>
+  <option value = "Second">Second</option>
+  <option value = "Final">Final</option>
+</select><br>
+  <button type="submit" name="submit">Submit</button>
+  <button type="reset" name="reset">Reset</button><br>
+  <label style="font-size: 50;">{{ result }}</label>
+  </form>
+  </body>
