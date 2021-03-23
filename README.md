@@ -19,3 +19,12 @@ The app has a web-based interface and can be accessed here. A sample user has al
 
 username: 
 password: 
+
+
+Built With...
+
+    Flask
+    Flask-RESTful
+    Microsoft Azure Cosmos DB for Cassandra
+    
+
