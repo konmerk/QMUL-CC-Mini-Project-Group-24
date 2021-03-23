@@ -12,3 +12,10 @@ This is a Flask app with an API layer. It has the following properties:
     A subject is taught by one teacher
     It has endpoints to CREATE, UPDATE, and DELETE each entity in the application
     Only an authorized user can access the endpoints
+
+Web App
+
+The app has a web-based interface and can be accessed here. A sample user has already been created with the following credentials:
+
+username: 
+password: 
